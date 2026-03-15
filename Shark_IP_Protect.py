@@ -46,8 +46,8 @@ EMAIL_RECIPIENT = "admin@example.com"
 EMAIL_SUBJECT = "Shark IP Protect Alert"
 
 # Discord webhook configuration
-DISCORD_ALERTS_ENABLED = True
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1474192232574750931/_V1gjd3563H1jGLy87c9zt3X7C23TEmqDghBMYKemh9aMEjfq1a2IVn-oE23KmDfbcNA"
+DISCORD_ALERTS_ENABLED = false
+DISCORD_WEBHOOK_URL = "POST HERE your discord webhook url"
 
 # ------------------ DIRECTORIES ------------------
 for path in [log_dir, cache_dir, results_dir]:
